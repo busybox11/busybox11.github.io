@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage - busybox</title>
+	<link rel="stylesheet" type="text/css" href="scss/bootstrap.css">
+
+	<style type="text/css">
+		.username_tag {
+			font-size: 1.5rem;
+			color: grey;
+		}
+
+		.social_discord { color: #a877ff; }
+
+		.social_github { color: white; } .social_github:hover { color: white; }
+
+		.social_dribbble { color: #ff3077; } .social_dribbble:hover { color: #ff3077; }
+
+		.social_twitter { color: #2196f3; } .social_twitter:hover { color: #2196f3; }
+
+		.social_instagram { color: #ff766c; } .social_instagram:hover { color: #ff766c; }
+
+		.social_spotify { color: #00cc00; } .social_spotify:hover { color: #00cc00; }
+
+		.social_reddit { color: orange; } .social_reddit:hover { color: orange; }
+
+		.social_website { color: white; } .social_website:hover { color: white; }
+
+		#npfs_div { background-image: url("files/npfs-screenshot-projects.png"); background-size: cover; background-position: left center; }
+
+		#npfs_logo { filter: drop-shadow(0px 6px 6px #00000070); }
+	</style>
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">busybox</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">portfolio</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link pr-0" href="#">projects <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container my-5">
+		<h1 class="mb-0"><b>projects.</b></h1>
+		<h4>all my (public) projects are here</h4>
+	</div>
+
+	<div class="container-fluid py-5 h-100" id="npfs_div">
+		<div class="container">
+			<div class="mb-5">
+				<img src="files/npfs-favicon.png" alt="Logo" width="100px" height="100px" class="mb-2" id="npfs_logo">
+				<h2><b>NowPlaying for Spotify</b></h2>
+				<h4>A modern looking Spotify Connect visualizer</h4>
+			</div>
+			<div>
+				<a href="https://nowplaying.ga/" class="social_website"><h5><i class="mdi mdi-web pr-2" aria-hidden="true" style="vertical-align: middle"></i>nowplaying.ga</h5></a>
+				<a href="https://github.com/busybox11/NowPlaying-for-Spotify" class="social_github"><h5><i class="mdi mdi-github" aria-hidden="true" style="vertical-align: middle"></i>/busybox11/NowPlaying-for-Spotify</h5></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
